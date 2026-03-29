@@ -1,0 +1,18 @@
+p{
+    color:blue;
+}
+.container{
+    font-weight: 800;
+}
+#header{
+    color:red;
+}
+h3{
+    background-color: grey;
+}
+.your{
+    background-color: aqua;
+}
+#my{
+    background-color: black;
+}
