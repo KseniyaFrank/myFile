@@ -1,0 +1,24 @@
+p{
+    font-size: 23px;
+}
+.second{
+    font-size: 3em;
+}
+h1{
+    font-size: 4rem;
+}
+h2{
+    font-size: 30%;
+}
+.borders{
+    color:#FF0843;
+    background-color: #FF8865;
+}
+#wat{
+    color:rgb(23,09,43);
+    background-color: rgb(110, 33, 54);
+}
+h3{
+    color: rgb(22,54,209);
+    background-color: rgba(203,56,87,0.2);
+}
