@@ -1,0 +1,28 @@
+.first:focus{
+border:2px solid black;
+}
+.button:hover{
+    background-color: aqua;
+
+}
+.food:first-child{
+    font-weight: bold;
+}
+.food:last-child{
+    color:burlywood;
+}
+a:hover{
+    color:darkcyan;
+}
+.things:nth-child(odd){
+    background-color: rgba(255, 192, 203, 0.675);
+}
+.things:nth-child(even){
+    background-color: rgba(100, 148, 237, 0.436);
+}
+.last:first-child:hover{
+    color:cadetblue;
+}
+.last:last-child:focus{
+    color: rgba(222, 32, 70, 0.651);
+}
