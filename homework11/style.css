@@ -1,0 +1,86 @@
+.block{
+    display: block;
+}
+.inline{
+    display: inline;
+}
+.flex{
+    display: flex;
+}
+.two{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-flow:column ;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end ;
+    align-content: flex-start ;
+}
+.a{
+    flex-grow:1;
+    background-color: aquamarine;
+}
+.b{
+    flex-shrink:1 ;
+    background-color: blue;
+}
+.c{
+    flex-basis:   200px ;
+    background-color: blueviolet;
+}
+.d{
+    flex: 1 1 300px;
+    background-color: black;
+}
+.abc{
+    display: flex;
+    justify-content: space-between;
+}
+.i{
+    flex-basis: 100px;
+    border: 10px solid red;
+}
+.names{
+    display: flex;
+   
+}
+.n{
+    flex-basis: 50%;
+    border: 10px solid pink;
+}
+.s{
+    flex-grow: 1;
+    border: 10px solid lightskyblue;
+}
+.seven{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+}
+.last{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    height: 120px;
+    
+}
+.numone{
+    flex:1 0 0;
+    background-color: beige;
+}
+.numtwo{
+    background-color: blueviolet;
+    flex: 0.5 0 100px;
+}
+.numthree{
+    flex:0 0 120px;
+    background-color: chocolate;
+}
+.numfour{
+    flex:0 0 20px;
+    background-color: darkseagreen;
+
+}
