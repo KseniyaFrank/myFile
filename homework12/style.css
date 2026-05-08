@@ -25,6 +25,7 @@ body{
     align-items: center;
     background-color:#f2f0f0;
     border-radius: 8px;
+   
 }
 .img{
   
@@ -185,5 +186,20 @@ nav{
     margin-right: 50px;
 }
 .line{
+    border:1px solid #D6D8DE;
+    border-radius: 10px;
     margin-right: 300px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    width: 500px; 
+    height: 44px;
+    padding: 0px 0px 0px 20px ;
+    justify-content: space-between;
+    
+    
+}
+.mar2{
+    margin-right: 10px;
+     display: flex;
 }
