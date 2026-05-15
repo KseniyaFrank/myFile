@@ -1,0 +1,240 @@
+.card{
+    padding: 40px 0px 40px 53px;
+    display: flex;
+}
+.card1{
+    display: flex;
+    background-color: #000000;
+    border-radius: 32px;
+    width: 1300px;
+    height: 545px;
+}
+.gear{
+
+    width: 73px;
+    height: 27px ;
+    border-radius: 6px;
+    background-color: #191919;
+    color: white;
+    margin-top:7.56px ;
+    text-align: center;
+    line-height: 27px;
+
+}
+.text{
+    display: block;
+    width: 778px;
+    height: 465px ;
+    padding: 40px 40.44px 40px 53px ;
+}
+.epi{
+    color: #118DA8;
+    width: 82px;
+    height:27px ;
+    font-size:17px;
+    margin-top: 48.44px;
+    display: flex;
+}
+.big{
+    width: 670px;
+    height: 141px;
+    color:#FFFFFF ;
+    font-size: 64px;
+    display: flex;
+    margin-top: 17.56px;
+    line-height: 70.4px;
+    letter-spacing: 2.56px;
+}
+.long{
+    color: #FFFFFFB2;
+    display: flex;
+    width: 730px;
+    height: 99px;
+    font-size: 22px;
+    line-height: 33px;
+    margin-top: 28px;
+}
+.view{
+    background-color: #118DA8;
+    border-radius: 6px;
+    width: 208px;
+    height: 51px;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 18px;
+    line-height: 51px;
+    margin-top: 18px;
+}
+.card2{
+    width: 290px;
+    height: 514px;
+    background-color: #E1EDE6;
+    display: flex;
+    margin-top: 289px;
+    margin-left: 25px;
+    flex-direction: column;
+}
+.wom{
+    display: flex;
+    padding: 20px 0px 20px 20px;
+    margin-right: 20px;
+}
+.selin{
+    display: flex;
+    width: 93px;
+    height:19px ;
+    margin-top: 15px;
+    font-size: 16px;
+    line-height: 100%;
+    color: #86928B;
+    margin-left: 20px;
+}
+.ledi{
+    color: #2C2D35;
+    width: 200px;
+    height: 28px;
+    font-size: 24px;
+    line-height: 100%;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.acril{
+    width: 250px;
+    height: 19px;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-left: 20px;
+    color: #2C2D35;
+}
+.cost{
+    width: 103px;
+    height: 23px;
+    font-size: 20px;
+    color: #598D66;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.last{
+    border: 1px solid #598D66;
+    width: 250px;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 20px;
+    color:#598D66 ;
+    background-color:#E1EDE6 ;
+    font-size: 18px;
+
+}
+.card3{
+    display: flex;
+    width: 380px;
+    height: 582px;
+    box-shadow: 2px 8px 16px 0px #C2C6D00F;
+    margin-top: 221px;
+    margin-left: 50px;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    border: #F2F6FA solid 1px;
+
+
+}
+.cardbox{
+    display: flex;
+    gap: 150px;
+}
+.tt{
+    width: 247px;
+    height: 95px;
+    gap: 12px;
+    margin-left: 44px;
+    margin-top: 50px;
+}
+.e{
+    width: 247px;
+    height: 35px;
+    font-size: 24px;
+    line-height: 143%;
+    color: #2E363E;
+}
+.x{
+    width: 240px;
+    height: 48px;
+    font-size: 16px;
+    line-height: 150%;
+    color: #2E363E;
+}
+.buy{
+    width: 163px;
+    height:118px ;
+    gap: 14px;
+    margin-left: 44px;
+    margin-top: 24px;
+}
+.rub{
+    width: 108px;
+    height: 36px;
+    font-size: 24px;
+    line-height: 150%;
+    color: #434B53;
+}
+.yellow{
+    margin-top: 14px;
+    background-color: #FED84C;
+    border-radius: 8px;
+    border: transparent;
+    width: 163px;
+    height: 68px;
+    gap: 10px;
+    color: #2E363E;
+    font-size: 18px;
+    line-height: 152%;
+}
+.card4{
+    background-color: #0C0B15;
+    display: flex;
+    width: 330px;
+    height: 400px;
+    flex-direction: column;
+    margin-top: 403px;
+    margin-left: 10px;
+    margin-right: 100px;
+    border-radius: 6px;
+}
+.me{
+    color: #FFFFFF;
+    font-size: 22px;
+    width: 96px;
+    height: 27px;
+    margin-bottom: 24px;
+    margin-left: 27px;
+
+}
+.product{
+    font-size: 18px;
+    color: #809FB8;
+    width: 262px;
+    height: 22px;
+    margin-bottom: 26px;
+    margin-left: 27px;
+}
+.lor{
+    font-size: 16px;
+    color: #809FB8;
+    width: 260px;
+    height: 147px;
+    margin-bottom: 53px;
+    margin-left: 27px;
+}
+.ss{
+    margin-left: 27.21px;
+    margin-right: 191.79px;
+    margin-bottom: 18.3px;
+   
+}
+.pic{
+    display: flex;
+    flex-direction: row;
+    margin-right: 23px;
+    margin-top: 23px;
+
+}
