@@ -1,0 +1,50 @@
+.static{
+    position: static;
+    background-color: bisque;
+}
+.static2{
+    position: static;
+    background-color: rgb(95, 95, 141);
+}
+.relative{
+    position: relative;
+    top:20px;
+    left:30px;
+    background-color: cadetblue;
+}
+.container{
+    position: relative;
+    top:150px;
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+
+}
+.first{
+    background-color: pink;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    right: 10px;
+}
+.second{
+    background-color: crimson;
+    
+}
+.fixed{
+    position: fixed;
+    bottom:20px ;
+    right:20px ;
+    background-color: darkslategray;
+}
+.sticky{
+    position: sticky;
+     top: 10px;
+     background-color: lightblue;
+     padding: 10px;
+
+}
+.white{
+    width: 10px;
+    height: 1000px;
+}
