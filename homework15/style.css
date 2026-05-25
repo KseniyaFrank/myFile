@@ -1,0 +1,68 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.card3{
+   width: 380px;
+   height: 582px;
+   box-shadow: 2px 8px 16px 0px #C2C6D00F;}
+.tt{
+    width: 380px;
+    
+    border: 1px solid #F2F6FA;
+    border-bottom-left-radius:10px ;
+    border-bottom-right-radius: 10px;
+    
+    
+    
+}
+.e{
+   width: 247px;
+   height: 35px;
+   font-size: 24px;
+   color: #2E363E;
+   margin-top: 50px;
+   margin-left: 44px;
+   margin-bottom: 12px;
+}
+.x{
+    width: 240px;
+    height: 48px;
+    font-size: 16px;
+    color: #2E363E;
+    margin-bottom:24px ;
+    margin-left: 44px;
+}
+.buy{
+ width: 163px;
+
+ margin-bottom: 50px;
+ margin-left: 44px;
+
+    }
+.rub{
+    width: 108px;
+    height: 36px;
+    font-size: 24px;
+    color: #434B53;
+    }
+.yellow{
+    border: none;
+    border-radius: 8px;
+    width: 163px;
+    height: 68px;
+    background-color: #FED84C;
+    font-size:18px ;
+    }
+.container{
+    display: grid;
+    grid-template-columns:380px 380px 380px ;
+    grid-template-rows: 582px 582px 582px ;
+    gap:20px;
+    justify-content: center;
+    
+    
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
