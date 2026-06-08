@@ -1,0 +1,348 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-color: #131313;
+   
+    height: 64px;
+    display: flex;
+    align-items: center;
+    width: 1280px;
+}
+.roblox{
+    margin-left: 32px;
+    margin-right: 32px;
+}
+.panel{
+    display: flex;
+    
+}
+.home{
+    color: #E5E2E1;
+    border-bottom: 2px solid #E2231A;
+    margin-right: 16px;
+    font-size: 14px;
+}
+.discover{
+    font-size: 14px;
+    color:#E7BDB7;
+    margin-right: 16px;
+}
+.shop{
+    color: #E7BDB7;
+    font-size: 14px;
+    margin-right: 76px;
+}
+.search{
+    width: 512px;
+    height: 58px;
+    background-color: #353534;
+    border: 1px solid #5D3F3B;
+    display: flex;
+    border-radius: 8px;
+    align-items: center;
+}
+.search2{
+    margin-left: 16px;
+    margin-right: 12px;
+}
+.text{
+    height: 21px;
+    width: 428px;
+    font-size: 16px;
+    color: #E7BDB7;
+}
+.last{
+    margin-left: 76px;
+}
+.body{
+    width: 1440px;
+    height: 1204px;
+
+    
+}
+.big{
+    width: 1200px;
+    height: 248px;
+    border: 1px solid #5D3F3B;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 48px;
+    display: flex;
+    background-color: #2A2A2A;
+    border-radius: 12px;
+    align-items: center;
+}
+.men{
+    margin-left: 19px;
+    
+}
+.hello{
+    width: 942px;
+    height: 56px;
+    color: #E5E2E1;
+    font-size: 48px;
+    margin-bottom: 8px;
+}
+.long{
+    width: 544px;
+    height: 52px;
+    font-size: 18px;
+    color: #E7BDB7;
+}
+.buttons{
+    display: flex;
+    margin-top: 24px;
+
+}
+.friends{
+    display: flex;
+    width: 176px;
+    height: 38px;
+    border-radius: 8px;
+    border: 1px solid #5D3F3B;
+    background-color: #201F1F;
+    align-items: center;
+    margin-right: 16px;
+    
+}
+.people{
+    margin-left: 16px;
+    margin-right: 4px;
+}
+.online{
+    font-size: 14px;
+    color: #E5E2E1;
+}
+.score{
+    margin-left: 16px;
+    margin-right: 8px;
+}
+.continue{
+    width: 1200px;
+    height: 284px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+   
+    
+}
+.play{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+.playing{
+    font-size: 32px;
+    color: #E5E2E1;
+}
+.see{
+    font-size: 16px;
+    color: #0066FF;
+}
+.card2{
+    margin-left: 16px;
+    margin-right: 16px;
+}
+.card3{
+    margin-right: 16px;
+}
+.recomend{
+    width: 1200px;
+    height: 428px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+.you{
+    font-size: 32px;
+    color: #E5E2E1;
+    margin-bottom: 24px;
+}
+.cards{
+    width: 1200px;
+    height: 364px;
+    display: flex;
+}
+.block{
+    width: 288px;
+    height: 363px;
+    border-radius: 12px;
+    border: 1px solid #5D3F3B;
+    background-color: #201F1F;
+}
+#b2{
+    margin-right: 17px;
+    margin-left: 17px;
+}
+#b3{
+    margin-right: 17px;
+}
+.game{
+    border-radius: 10px;
+    width:286px ;
+    height:286px;
+}
+.bottom{
+    margin-left: 16px;
+    margin-left: 16px;
+    margin-top: 16px;
+}
+.name{
+    font-size: 14px;
+    color: #E5E2E1;
+    margin-bottom: 8px;
+}
+.header2,.welcome,.gameimg,.arrow{
+    display: none;
+}
+
+@media(max-width: 390px){
+    header,.title,.big,.play,.see,.block{
+        display: none;
+    }
+    .header2{
+        display: flex;
+        align-items: center;
+        background-color: #131313;
+        width: 390px;
+        height: 64px;
+    }
+    .roblox2{
+        margin-left: 12px;
+        font-size: 20px;
+        color: #E2231A;
+        margin-right: 136px;
+        width: 82px;
+       
+        
+        
+    }
+    .searchpanel{
+        margin-right: 16px;
+    }
+    .first{
+        display: flex;
+        align-items: center;
+        height: 64px;
+    }
+    .panel2{
+        display: flex;
+        
+        
+    }
+    .border{
+        margin-left: 16px;
+    }
+    .men,.long,.buttons{
+        display: none;
+    }
+    .welcome{
+        display: block;
+        font-size: 14px;
+        color:#E7BDB7;
+        margin-left: 24px;
+        margin-top: 24px;
+        margin-bottom: 4px;
+        
+        
+
+
+    }
+    .title{
+        width: 358px;
+        height: 104px;
+        display: flex;
+        flex-direction: column;
+        background-color: #2A2A2A;
+        border-left: 4px solid #E2231A;
+        border-radius: 12px;
+        position: relative;
+    }
+    .hello{
+        font-size: 24px;
+        color:#E5E2E1;
+        margin-left: 24px;
+    }
+    .big{
+        display: flex;
+        width: 358px;
+        height: 104px;
+        margin-left: 16px;
+        
+    }
+    body{
+        background-color: #131313;
+    }
+   .play{
+    display: flex;
+    width: 390px;
+    
+    
+   }
+    .playing{
+        font-size: 20px;
+        color: #E5E2E1;
+       
+    }
+    .gameimg{
+        display: block;
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+        opacity: 0.3;
+    }
+    .arrow{
+        display: block;
+        margin-right:20px ;
+    }
+    .continue{
+        margin-left: 20px;
+    }
+    .card1,.card2,.card3,.card4{
+        width: 160px;
+        height: 160px;
+    }
+    .you{
+        font-size: 20px;
+        
+    }
+    .recomend{
+        width: 358px;
+        height: 487px;
+        margin-left: 20px;
+    }
+   .block{
+    display: flex;
+    width: 171px;
+    height: 213px;
+    position: relative;
+   }
+   .bottom{
+    position: absolute;
+    bottom:12px ;
+    left: 12px;
+    margin: 0;
+
+    
+    
+   }
+   .game{
+    width: 171px;
+    height:213px ;
+    margin: 0;
+   }
+   .cards{
+    display: grid;
+    grid-template-columns: 171px 171px;
+    gap:16px
+   }
+   #b2{
+    margin: 0;
+   }
+}
