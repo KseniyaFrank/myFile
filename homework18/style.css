@@ -1,0 +1,25 @@
+@font-face{
+    font-family: "MyFont";
+    src: url("FiraSans-Light.ttf");
+}
+
+
+
+
+h1{
+font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.want{
+    color: cornflowerblue;
+    font-family: "MyFont";
+}
+  .black-ops-one-regular{
+  font-family: "Black Ops One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+
+  color: rgb(81, 37, 37);
+}
