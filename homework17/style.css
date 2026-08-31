@@ -1,0 +1,53 @@
+.card1{
+    width: 350px;
+    height: 730px;
+    background-color: #E1EDE6;
+}
+.img1{
+    width: 310px;
+    height: 422px;
+    padding:20px;
+}
+.text{
+    margin-left: 20px;
+   
+}
+.author{
+    color: #86928B;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.name{
+    color: #2C2D35;
+    font-size: 30px;
+    margin-bottom: 8px;
+}
+.devises{
+    color: #2C2D35;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.cost{
+    color: #598D66;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.buy{
+    color: #598D66;
+    font-size: 20px;
+    border:#598D66 solid 1px ;
+    background-color: #E1EDE6;
+    width: 310px;
+    height: 65px;
+}
+.cards{
+    display: grid;
+    grid-template-columns: 350px 350px;
+    gap: 30px;
+}
+.cards2{
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    gap: 30px;
+    margin-top: 50px;
+}
