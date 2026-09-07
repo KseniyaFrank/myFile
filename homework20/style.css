@@ -1,0 +1,60 @@
+.first{
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    transform: rotate(45deg);
+    margin: 70px;
+}
+.second{
+    width: 50px;
+    height: 50px;
+    background-color: blueviolet;
+    transform: scale(3);
+    margin: 60px;
+}
+.third{
+    width: 150px;
+    height: 150px;
+    margin: 70px;
+    background-color: cadetblue;
+    transform: translateX(300px);
+    
+}
+.fourth{
+    width: 200px;
+    height: 200px;
+    margin: 70px;
+    background-color: darkblue;
+    transform: skew(15deg);
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 30px;
+    background-color: darkred;
+    color: aliceblue;
+    margin: 70px;
+    transition: background-color 1s, transform 1s;
+}
+.button:hover{
+    background-color: burlywood;
+    transform: rotate(20deg);
+}
+.animation{
+    animation: translateX 10s  infinite;
+    width: 100px;
+    height: 100px;
+    background-color: coral;
+}
+@keyframes translateX{
+    0%,50%,100%{
+        transform: translateX(0px);
+        opacity: 0.5;
+    }
+    25%,75%{
+        transform: translateX(200px);
+        opacity: 1;
+    }
+}
